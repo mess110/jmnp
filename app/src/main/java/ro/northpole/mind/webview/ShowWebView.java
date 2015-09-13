@@ -1,4 +1,4 @@
-package ro.northpole.music.webview;
+package ro.northpole.mind.webview;
 
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -48,7 +48,7 @@ public class ShowWebView extends Activity {
         //Get webview
         webView = (WebView) findViewById(R.id.webView1);
         if (haveNetworkConnection()) {
-            startWebView("https://json.northpole.ro/music.html");
+            startWebView("https://json.northpole.ro/mind/index.html");
         } else {
             webView.loadUrl("file:///android_asset/error.html");
         }

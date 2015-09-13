@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.0 rc2"
 
     defaultConfig {
-        applicationId "ro.northpole.music.webview"
+        applicationId "ro.northpole.mind.webview"
         minSdkVersion 11
         targetSdkVersion 21
     }
