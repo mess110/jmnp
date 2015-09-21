@@ -48,7 +48,7 @@ public class ShowWebView extends Activity {
         //Get webview
         webView = (WebView) findViewById(R.id.webView1);
         if (haveNetworkConnection()) {
-            startWebView("https://json.northpole.ro/mind/index.html");
+            startWebView("https://json.northpole.ro/app/build/index.html");
         } else {
             webView.loadUrl("file:///android_asset/error.html");
         }
