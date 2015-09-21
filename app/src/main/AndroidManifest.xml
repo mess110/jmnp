@@ -19,6 +19,7 @@
         <activity
             android:configChanges="orientation|screenSize"
             android:name="ro.northpole.mind.webview.ShowWebView"
+            android:windowSoftInputMode="adjustNothing"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
